@@ -5,24 +5,13 @@
 //  Created by Wingfield, James (PEPW) on 31/10/2023.
 //
 
-import Foundation
+var list = [8,3,4,7,23,109,1]
+let target = 3
 
-var unSorted = [5,6,3,7,2,9]
-var temp = 0
+linearSearch(target: target, list: list)
 
-print("Hello world")
+insertionSort(list: &list)
 
-for element in unSorted{
-    if element != unSorted[0]{
-        if element < unSorted[element-1]{c}
-            temp = element
-            element = unSorted[element-1]
-            unSorted[element-1] = temp
-    }
-}
-
-
-
-
+//bubbleSort(list: &list)
 
 

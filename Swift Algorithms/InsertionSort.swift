@@ -5,15 +5,26 @@
 //  Created by Wingfield, James (PEPW) on 02/11/2023.
 //
 
-import Foundation
 
-
-
-var unSorted = [5,6,3,7,2,9]
-var temp = 0
-
-for element in unSorted{
-    if element != unSorted[0]{
-        if element <
+func insertionSort(list: inout [Int]) {
+    var temp = 0
+    var swapped = true
+    while swapped == true{
+        for i in 1..<list.count - 1 {
+            swapped = false
+            while list[i] < list[i-1]{
+                temp = list[i]
+                list[i] = list[i-1]
+                list[i-1] = temp
+                swapped = true
+            }
+            
+            
+        }
     }
+    print(list)
+    
+    
+    
 }
+
