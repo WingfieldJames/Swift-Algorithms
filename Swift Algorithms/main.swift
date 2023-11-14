@@ -10,6 +10,8 @@ import Foundation
 var unSorted = [5,6,3,7,2,9]
 var temp = 0
 
+print("Hello world")
+
 for element in unSorted{
     if element != unSorted[0]{
         if element < unSorted[element-1]{c}
