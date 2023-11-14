@@ -1,5 +1,5 @@
 //
-//  Insertion Sort.swift
+//  InsertionSort.swift
 //  Swift Algorithms
 //
 //  Created by Wingfield, James (PEPW) on 02/11/2023.
